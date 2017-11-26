@@ -1,0 +1,53 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background: url(http://localhost:51309/Images/hollie-harmsworth-401692.jpg);
+    background-size: cover;
+    background-repeat: repeat-y, no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox {
+width: 320px; 
+height: 40px;
+background: #000;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+
+}
+
+.loginbox input[type="text"], input[type="password"] {
+        
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+}
+.submit {
+    width: 120px;
+}
+
+.loginbox {
+    margin: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 320px;
+    height: 420px;
+    /*background-color: #f00;*/
+}
+
+    .loginbox input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+.link {
+    
+}
